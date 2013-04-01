@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  InitialVC.h
 //  GetPix
 //
 //  Created by Darren Venn on 3/30/13.
@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface InitialVC : UIViewController
+
+- (IBAction)doButton:(id)sender;
 
 @end
